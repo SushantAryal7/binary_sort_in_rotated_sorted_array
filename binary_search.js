@@ -4,7 +4,7 @@ function binary_search(arr, target){
     let high = arr.length;
     let low = 0 ;
     while(high>=low){
-        let mid = Math.abs((high + low)/2)
+        let mid = Math.floor((high + low)/2)
 
         if(arr[mid] == target){
             return mid;
